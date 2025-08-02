@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Muted Words - DeepMC</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/muted-words.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="page-body">
+    <div id="navbar-placeholder"></div>
+
+    <main class="container">
+        <header class="page-header">
+            <div class="header-content">
+                <h1>Pending Mute Words</h1>
+                <p>Review new words submitted for the mute filter. Use "DELETE" to reject a word.</p>
+            </div>
+            <div class="header-actions">
+                <a href="/staff/all-words" class="view-all-btn">View All Words</a>
+                <button id="save-all-btn" class="save-btn">Save Changes</button>
+            </div>
+        </header>
+
+        <div class="table-card">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Word</th>
+                        <th>Reason & Note</th>
+                        <th>Submitted At</th>
+                    </tr>
+                </thead>
+                <tbody id="words-table-body">
+                    </tbody>
+            </table>
+        </div>
+    </main>
+    
+    <div id="footer-placeholder"></div>
+    <script src="/js/main.js"></script>
+    <script src="/js/muted-words.js"></script>
+</body>
+</html>

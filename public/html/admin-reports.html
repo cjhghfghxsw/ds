@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Reports - DeepMC</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/admin-reports.css">
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="page-body">
+    <div id="navbar-placeholder"></div>
+    <main class="container">
+        <header class="page-header">
+            <h1>Reports</h1>
+            <p>View and handle incoming player reports.</p>
+            <a href="/staff/reports-history" class="action-btn history-btn">View History</a>
+        </header>
+        <div class="table-card">
+            <table id="admin-reports-table" class="display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Reported</th>
+                        <th>By</th>
+                        <th>Type</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- DataTable will populate this automatically -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <div id="footer-placeholder"></div>
+
+    <!-- JQuery (required by DataTables) -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- DataTables JS -->
+    <script type="text/javascript" src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    
+    <script src="/js/main.js"></script>
+    <script src="/js/admin-reports.js"></script>
+</body>
+</html>

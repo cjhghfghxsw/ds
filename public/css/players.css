@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* Players Page Body */
+.players-page-body {
+    background-color: #1a1a1a;
+    font-family: 'Poppins', sans-serif;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.players-page-body .main-nav, .players-page-body .main-footer {
+    flex-shrink: 0;
+}
+
+/* Main Container */
+.players-container {
+    flex-grow: 1;
+    max-width: 1200px;
+    width: 100%;
+    margin: 40px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Staff Group Section */
+.staff-group {
+    background-color: #222;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 30px;
+    border: 1px solid #333;
+}
+
+.staff-group h2 {
+    font-weight: 700;
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #444;
+}
+
+.player-cards-container {
+    display: flex; /* Use Flexbox instead of Grid */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    gap: 15px;
+}
+
+/* New Player Card Style */
+.player-card {
+    display: inline-flex; /* Make the card's width fit its content */
+    align-items: center;
+    background-color: #2d2d2d;
+    padding: 10px 15px; /* Adjust padding */
+    border-radius: 6px;
+    transition: background-color 0.2s;
+}
+
+.player-card:hover {
+    background-color: #353535;
+}
+
+.player-skin-head {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 2px solid #00AAAA;
+}
+
+.player-info {
+    flex-grow: 5;
+    font-weight: 500; /* Changed from bold */
+    font-size: 1.25em;
+    font-family: 'Poppins', sans-serif; /* Add this line */
+}
+.player-profile-link {
+    text-decoration: none;
+    font-weight: bold;
+}
+.player-profile-link:hover {
+    text-decoration: underline;
+}
+.player-profile-link:hover {
+    text-decoration: none; /* Changed from underline */
+}

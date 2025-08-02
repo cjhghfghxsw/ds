@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - DeepMC</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="login-page-body">
+
+    <div id="navbar-placeholder"></div>
+
+    <main class="login-container">
+        <form id="login-form">
+            <h2>DeepMC Login</h2>
+
+            <div class="notice-box-inline">
+                <strong>Notice!</strong>
+                <p>Enter your username and password in DeepMC.</p>
+            </div>
+
+            <p id="message-box"></p>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit" id="login-button">Login</button>
+        </form>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/main.js"></script>
+    <script src="/js/login.js"></script>
+    
+</body>
+</html>

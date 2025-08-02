@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* Homepage Body */
+.home-page-body {
+    background-color: #1a1a1a;
+    font-family: 'Poppins', sans-serif;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.home-page-body .main-nav, .home-page-body .main-footer {
+    flex-shrink: 0;
+}
+
+/* Main Container */
+.home-container {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 40px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Card style for each content section */
+.content-section {
+    background-color: #222;
+    padding: 25px;
+    border: 1px solid #333;
+    border-radius: 8px;
+}
+
+.section-title {
+    font-weight: 700;
+    color: #55FFFF;
+    font-size: 1.5em;
+    margin-top: 0;
+    border-bottom: 1px solid #444;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 8px rgba(85, 255, 255, 0.7);
+}
+
+/* News Article Styling */
+.news-article {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #333;
+}
+
+.news-article:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.news-article h3 {
+    margin: 0 0 10px 0;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.news-article p {
+    margin: 0 0 10px 0;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.news-meta {
+    font-size: 0.8em;
+    color: #888;
+}
+
+/* Top Playtime Table Styling */
+#playtime-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.player-playtime-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #333;
+    transition: background-color 0.2s;
+}
+
+.player-playtime-item:last-child {
+    border-bottom: none;
+}
+
+.playtime-rank {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #888;
+    width: 40px; /* Fixed width for alignment */
+    flex-shrink: 0;
+}
+
+.playtime-player-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-grow: 1; /* Allows it to take up available space */
+}
+
+.playtime-skin-head {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.player-profile-link {
+    text-decoration: none;
+    color: inherit; /* Inherits the rank color */
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.player-profile-link:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.playtime-duration {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #55FFFF;
+    margin-left: auto; /* Pushes the time to the far right */
+}

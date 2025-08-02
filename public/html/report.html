@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Report a Player - DeepMC</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/report.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="page-body">
+    <div id="navbar-placeholder"></div>
+    <main class="container">
+        <div class="report-container">
+            <div class="tabs">
+                <button class="tab-link active" data-tab="report-hacker">Report Hacker</button>
+                <button class="tab-link" data-tab="report-abuse">Report Abuse</button>
+            </div>
+            <div class="tab-content-wrapper">
+                <!-- Report Hacker Content -->
+                <div id="report-hacker" class="tab-content active">
+                    <div class="notice-box info">The video should be on Youtube/Streamable with a good quality.</div>
+                    <form class="report-form" data-type="hacker">
+                        <label for="hacker-username">Username</label>
+                        <input type="text" id="hacker-username" placeholder="Player to report..." required>
+                        <label for="hacker-link">Youtube/Streamable Link</label>
+                        <input type="text" id="hacker-link" placeholder="https://..." required>
+                        <label for="hacker-notes">Extra Notes</label>
+                        <textarea id="hacker-notes" placeholder="Timestamps, specific details, etc."></textarea>
+                        <button type="submit">Report</button>
+                    </form>
+                </div>
+                <!-- Report Abuse Content -->
+                <div id="report-abuse" class="tab-content">
+                    <div class="notice-box info">The link should be a chatreport.</div>
+                     <form class="report-form" data-type="abuse">
+                        <label for="abuse-username">Username</label>
+                        <input type="text" id="abuse-username" placeholder="Player to report..." required>
+                        <label for="abuse-link">Link</label>
+                        <input type="text" id="abuse-link" placeholder="https://..." required>
+                        <label for="abuse-notes">Extra Notes</label>
+                        <textarea id="abuse-notes" placeholder="Additional context..."></textarea>
+                        <button type="submit">Report</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="footer-placeholder"></div>
+    <script src="/js/main.js"></script>
+    <script src="/js/report.js"></script>
+</body>
+</html>

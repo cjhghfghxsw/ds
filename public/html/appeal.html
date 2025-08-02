@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Appeal - DeepMC</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/appeal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="page-body">
+    <div id="navbar-placeholder"></div>
+    <main class="container">
+        <header class="page-header">
+            <h1>Punishment Appeal</h1>
+            <p>Check your punishment status and submit an appeal if eligible.</p>
+        </header>
+
+        <div class="appeal-container">
+            <div class="tabs">
+                <button class="tab-link active" data-tab="ban-appeal">
+                    <i class="fas fa-ban"></i> Ban Appeal
+                </button>
+                <button class="tab-link" data-tab="mute-appeal">
+                    <i class="fas fa-comment-slash"></i> Mute Appeal
+                </button>
+            </div>
+            <div class="tab-content-wrapper">
+                <!-- Ban Appeal Content -->
+                <div id="ban-appeal" class="tab-content active">
+                    <!-- Content loaded by JS -->
+                </div>
+                <!-- Mute Appeal Content -->
+                <div id="mute-appeal" class="tab-content">
+                    <!-- Content loaded by JS -->
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="footer-placeholder"></div>
+    <script src="/js/main.js"></script>
+    <script src="/js/appeal.js"></script>
+</body>
+</html>

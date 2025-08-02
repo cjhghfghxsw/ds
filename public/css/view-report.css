@@ -1,0 +1,62 @@
+/* View Report Page Body */
+.page-body { background-color: #1a1a1a; color: #eee; font-family: 'Poppins', sans-serif; }
+.container { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
+
+/* Header */
+.report-header {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.report-header h1 { margin: 0; font-size: 1.8em; }
+
+/* Status Badges */
+.status-badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.status-pending { background-color: #00FFB2; color: #000; }
+.status-claimed { background-color: #48FF00; color: #000; }
+
+/* Main Grid */
+.report-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 30px; }
+
+/* Video Card */
+.video-card { position: relative; padding-top: 56.25%; height: 0; overflow: hidden; background-color: #000; border-radius: 8px; }
+.video-player { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
+
+/* Details Card */
+.details-card { background-color: #222; border-radius: 8px; padding: 25px; border: 1px solid #333; }
+.details-card h2 { margin-top: 0; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #444; }
+.info-item { margin-bottom: 15px; }
+.info-item .label { font-size: 0.9em; color: #888; display: block; margin-bottom: 5px; }
+.info-item .value { font-size: 1.1em; font-weight: 500; }
+.info-item .value a { color: #55FFFF; text-decoration: none; }
+.extra-notes p { margin: 5px 0 0; line-height: 1.6; color: #ccc; }
+
+/* Actions Card */
+.actions-card { background-color: #222; border-radius: 8px; padding: 25px; border: 1px solid #333; margin-top: 30px; }
+.action-btn { border: none; padding: 12px 12px; border-radius: 5px; color: #fff; cursor: pointer; font-weight: bold; font-size: 1em; width: 25%; transition: opacity 0.2s; }
+.action-btn:hover { opacity: 0.9; }
+.claim-btn { background-color: #00AAAA; }
+.claimed-by-text { text-align: center; color: #888; font-style: italic; }
+
+.loading-text { text-align: center; font-size: 1.5em; color: #888; padding: 50px; }
+/* Close Report Button */
+.close-btn {
+    background-color: #dc3545; /* Red */
+}
+
+/* Modal Styles */
+.modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.7); display: flex; align-items: center; justify-content: center; z-index: 1000; }
+.modal-content { background-color: #2d2d2d; padding: 30px; border-radius: 8px; width: 100%; max-width: 500px; border: 1px solid #444; }
+.modal-content h2 { margin-top: 0; }
+.modal-content label { display: block; margin-bottom: 10px; color: #aaa; }
+.modal-content textarea { width: 100%; min-height: 100px; background-color: #222; border: 1px solid #555; color: #eee; padding: 10px; border-radius: 4px; box-sizing: border-box; resize: vertical; }
+.modal-actions { margin-top: 20px; display: flex; justify-content: flex-end; gap: 10px; }
+.cancel-btn { background-color: #6c757d; }
+.confirm-btn { background-color: #28a745; }

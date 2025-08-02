@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Active Mutes - DeepMC</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/active-mutes.css"> <!-- Link to its own CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+</head>
+<body class="page-body">
+    <div id="navbar-placeholder"></div>
+    <main class="container">
+        <header class="page-header">
+            <h1>Active Mutes</h1>
+            <p>A list of all currently active mutes on the server.</p>
+        </header>
+        <div class="table-card">
+            <table id="active-mutes-table" class="display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Player</th>
+                        <th>Muted By</th>
+                        <th>Reason</th>
+                        <th>Duration</th>
+                        <th>Expires</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </main>
+    <div id="footer-placeholder"></div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/active-mutes.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+/* Guild Profile Page Body */
+.page-body {
+    background-color: #1a1a1a;
+    color: #eee;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.guild-profile-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* Left info card is 1/4, right table is 3/4 */
+    gap: 30px;
+    align-items: flex-start;
+}
+
+/* Info Card & Members Table Card */
+.info-card, .members-card {
+    background-color: #222;
+    border-radius: 8px;
+    border: 1px solid #333;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #747474;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-bottom: 1px solid #333;
+}
+.info-list li:last-child {
+    border-bottom: none;
+}
+.info-list li span:first-child {
+    color: #aaa;
+}
+.info-list li span:last-child {
+    font-weight: bold;
+}
+
+/* Members Table */
+.members-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.members-table th, .members-table td {
+    padding: 15px 20px;
+    text-align: left;
+}
+.members-table thead {
+    background-color: #747474; /* Blue header */
+    color: #fff;
+}
+.members-table tbody tr {
+    border-bottom: 1px solid #333;
+}
+.members-table tbody tr:last-child {
+    border-bottom: none;
+}
+.members-table tbody tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+.player-profile-link {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+}
+.player-profile-link:hover {
+    opacity: 0.8;
+}

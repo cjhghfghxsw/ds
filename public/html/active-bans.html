@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Active Bans - DeepMC</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/all-words.css"> <!-- Reusing this for the table style -->
+    <link rel="stylesheet" href="/css/active-bans.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+</head>
+<body class="page-body">
+    <div id="navbar-placeholder"></div>
+    <main class="container">
+        <header class="page-header">
+            <h1>Active Punishments</h1>
+            <p>A list of all currently active bans on the server.</p>
+        </header>
+        <div class="table-card">
+            <table id="active-bans-table" class="display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Player</th>
+                        <th>Banned By</th>
+                        <th>Reason</th>
+                        <th>Duration</th>
+                        <th>Expires</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </main>
+    <div id="footer-placeholder"></div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/active-bans.js"></script>
+</body>
+</html>

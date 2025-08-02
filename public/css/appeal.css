@@ -1,0 +1,66 @@
+.page-body { background-color: #1a1a1a; color: #eee; font-family: 'Poppins', sans-serif; }
+.container { max-width: 800px; margin: 40px auto; padding: 0 20px; }
+
+.appeal-container { background-color: #222; border-radius: 8px; border: 1px solid #333; overflow: hidden; }
+.tabs { display: flex; background-color: #2a2a2a; }
+.tab-link { background: none; border: none; color: #aaa; padding: 15px 25px; cursor: pointer; font-size: 1em; font-weight: 500; border-bottom: 3px solid transparent; transition: all 0.2s; flex-grow: 1; display: flex; align-items: center; justify-content: center; gap: 8px; }
+.tab-link:hover { color: #fff; }
+.tab-link.active { color: #55FFFF; border-bottom: 3px solid #55FFFF; }
+.tab-content-wrapper { padding: 30px; }
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Notice Boxes for different states */
+.notice-box { padding: 20px; border-radius: 5px; font-weight: 500; text-align: center; border: 1px solid; }
+.notice-box.info { background-color: #1c2a38; color: #82c3ff; border-color: #2a4157; }
+.notice-box.pending { background-color: #38341c; color: #ffd182; border-color: #574f2a; }
+.notice-box.response { background-color: #1c382f; color: #82c3ff; border-color: #2a5747; text-align: left; }
+.notice-box.response h4 { margin: 0 0 10px 0; }
+.notice-box.response p { margin: 0; white-space: pre-wrap; }
+.notice-box.success { background-color: #2e7d32; color: #fff; border-color: #3a9d3f; }
+
+/* Form Styling */
+.appeal-form-container { border-bottom: 1px solid #333; padding-bottom: 20px; margin-bottom: 20px; }
+.appeal-form-container h4 { margin-top: 0; }
+.punishment-details-list { list-style: none; padding: 0; margin: 0; }
+.punishment-details-list li { display: flex; justify-content: space-between; padding: 8px 0; }
+.punishment-details-list li span { color: #aaa; }
+.punishment-details-list li em { font-style: normal; color: #fff; }
+.punishment-details-list li strong { color: #fff; }
+
+/* Appeal Form Design */
+.appeal-input-form {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.appeal-input-form label {
+    font-weight: 700;
+    color: #fff;
+    flex-shrink: 0;
+}
+
+.appeal-input-form textarea {
+    flex-grow: 1;
+    min-height: 45px;
+    height: 45px;
+    background-color: #333;
+    border: 1px solid #444;
+    color: #eee;
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.appeal-input-form button {
+    background-color: #00AAAA;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    flex-shrink: 0;
+}

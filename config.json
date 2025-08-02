@@ -1,0 +1,12 @@
+{
+  "DB_HOST": "78.46.164.171",
+  "DB_PORT": 3306,
+  "DB_USER": "db_731168",
+  "DB_PASSWORD": "yJ4f96tK3UBhV86nfM4N",
+  "DB_NAME": "db_731168",
+  "PLUGIN_SYNC_URL": "https://key-koi-forcibly.ngrok-free.app/sync",
+  "PLUGIN_SECRET_KEY": "DMC-SYNC-4E7B-A1F9-C3D8-6G2H",
+  "DISCORD_APPEAL_WEBHOOK_URL": "https://discord.com/api/webhooks/1400941274952896583/IZYKlb2xf_Nkreturi-myM06SkGvCARamOsU-IhqisNsPBAMFcB6R5nyA4QvnP4DQAw_",
+  "WEBSITE_URL": "https://key-koi-forcibly.ngrok-free.app"
+
+}

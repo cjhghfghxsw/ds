@@ -1,0 +1,60 @@
+<nav class="main-nav">
+    <div class="nav-container">
+        <a href="/" class="nav-brand">
+            <img src="../../assets/DeepNavBrandLogo.png" alt="DeepMC Logo" class="nav-logo">
+        </a>
+        <form id="player-search-form" class="player-search">
+    <input type="text" id="player-search-input" placeholder="Search Player...">
+    
+    <button type="submit"><i class="fas fa-search"></i></button>
+</form>
+
+        <ul id="staff-nav-links" class="nav-links" style="display: none;">
+             <li class="dropdown">
+                <a href="#" class="nav-item control-panel-link">Control Panel &#9662;</a>
+                <div class="dropdown-content">
+                    <a href="/staff/home">My Stats</a>
+                    <a href="/staff/my-bans">My Bans</a>
+                    <a href="/staff/top-bans">Top Bans</a>
+                    <a href="/staff/active-bans" id="active-bans-link" style="display: none;">Active Bans</a>
+                    <a href="/staff/active-mutes" id="active-mutes-link" style="display: none;">Active Mutes</a>
+                    <a href="/staff/muted-words">Muted Words</a>
+                    <a href="/staff/management" id="staff-management-link" style="display: none;">Staff Management</a>
+                    <a href="/staff/admin-reports" id="admin-reports-link" style="display: none;">Reports</a>
+                    <a href="/staff/appeals" id="appeals-link" style="display: none;">Appeals</a>
+                </div>
+            </li>
+        </ul>
+        <div class="nav-right">
+            <ul class="nav-links">
+                <li><a href="/" class="nav-item">Home</a></li>
+                <li><a href="/players" class="nav-item">Players</a></li>
+                <li><a href="/guilds" class="nav-item">Guilds</a></li>
+                <li><a href="#" class="nav-item">Store</a></li>
+                <li><a href="#" class="nav-item">Support</a></li>
+                                <li class="dropdown">
+                    <a href="#" class="nav-item">Other &#9662;</a>
+                    <div class="dropdown-content">
+                        <a href="/appeal">Appeal</a>
+                        <a href="/report">Report</a>
+                        <a href="/rules">Rules</a>
+                    </div>
+                </li>
+            </ul>
+            <div id="user-session-block">
+                <a href="/login" id="nav-login-button" class="logout-link">Login</a>
+
+                <div id="nav-logged-in" class="user-dropdown" style="display: none;">
+                    <div class="user-info">
+                        <img id="nav-user-skin" class="nav-skin-head" src="" alt="User Skin">
+                        <span id="nav-username"></span> &#9662; </div>
+                    <div class="dropdown-content">
+                        <a id="profile-link" href="#">Your Profile</a>
+                        <a href="#">Settings</a>
+                        <a href="#" id="logout-button">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,79 @@
+/* Guilds Page Body */
+.page-body {
+    background-color: #1a1a1a;
+    color: #eee;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Table Card */
+.table-card {
+    background-color: #222;
+    border-radius: 8px;
+    border: 1px solid #333;
+    overflow: hidden;
+}
+
+.guilds-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.guilds-table th, 
+.guilds-table td {
+    padding: 15px 20px;
+    text-align: left;
+}
+
+.guilds-table thead {
+    background-color: #747474; /* Blue header */
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.guilds-table tbody tr {
+    border-bottom: 1px solid #333;
+}
+
+.guilds-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.guilds-table tbody tr:nth-child(even) {
+    background-color: #2a2a2a; /* Alternating row color */
+}
+
+/* Guild Name and Tag */
+.guild-name {
+    font-weight: 500;
+}
+
+.guild-tag {
+    font-weight: 500;
+    margin-left: 8px;
+    color: #aaa; /* Fallback color */
+}
+
+/* Player Profile Link */
+.player-profile-link {
+    text-decoration: none;
+    font-weight: 500;
+    color: inherit; /* Allows inline style to take over */
+    transition: opacity 0.2s;
+}
+
+.player-profile-link:hover {
+    opacity: 0.8;
+}
+.guild-name-link {
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+.guild-name-link:hover {
+    opacity: 0.8;
+}

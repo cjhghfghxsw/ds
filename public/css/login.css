@@ -1,0 +1,121 @@
+/* Neon Login Page Body */
+.login-page-body {
+    background-color: #1a1a1a;
+    background-image: url('../assets/loginpagebg.png');
+    color: #eee;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.login-page-body .main-nav, .login-page-body .main-footer {
+    flex-shrink: 0;
+}
+
+/* Login Container */
+.login-container {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+#login-form {
+    width: 100%;
+    max-width: 400px;
+    background-color: #222;
+    border: 2px solid #55FFFF; /* Updated to new cyan */
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(85, 255, 255, 0.4); /* Updated to new cyan */
+}
+
+#login-form h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-shadow: 0 0 5px #fff;
+}
+
+#login-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #55FFFF; /* Updated to new cyan */
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+    background-color: #333;
+    color: #fff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#login-form input:focus {
+    outline: none;
+    border-color: #00AAAA; /* Changed from magenta */
+    box-shadow: 0 0 10px rgba(0, 170, 170, 0.5); /* Changed from magenta */
+}
+
+#login-form button {
+    width: 100%;
+    background-color: transparent;
+    color: #55FFFF; /* Updated to new cyan */
+    padding: 12px 25px;
+    border: 2px solid #55FFFF; /* Updated to new cyan */
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+#login-form button:hover {
+    background-color: #55FFFF; /* Updated to new cyan */
+    color: #111;
+    box-shadow: 0 0 15px #55FFFF; /* Updated to new cyan */
+}
+
+/* Message box */
+#message-box { min-height: 20px; margin-bottom: 15px; font-weight: bold; }
+.success { color: #00ff00; }
+.error { color: #ff4444; }
+.notice-box-inline {
+    background-color: #4f9791;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.notice-box-inline strong {
+    color: #fff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.notice-box-inline p {
+    margin: 0;
+    color: #ccc;
+    font-size: 0.9em;
+}
+
+
+
+
+
+

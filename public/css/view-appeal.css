@@ -1,0 +1,12 @@
+.page-body { background-color: #1a1a1a; color: #eee; font-family: 'Poppins', sans-serif; }
+.container { max-width: 960px; margin: 40px auto; padding: 0 20px; }
+.appeal-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 30px; }
+.card { background-color: #222; border-radius: 8px; padding: 25px; border: 1px solid #333; }
+.card h2 { margin-top: 0; padding-bottom: 15px; border-bottom: 1px solid #444; }
+.info-item .label { font-size: 0.9em; color: #888; }
+.info-item .value { font-size: 1.1em; font-weight: 500; }
+.info-item .value a { color: #55FFFF; text-decoration: none; }
+.appeal-reason { background-color: #2a2a2a; padding: 15px; border-radius: 5px; margin-top: 15px; }
+.actions-card .action-btn { width: 100%; border: none; padding: 12px; border-radius: 5px; font-weight: bold; cursor: pointer; }
+.accept-btn { background-color: #28a745; color: #fff; }
+.deny-btn { background-color: #dc3545; color: #fff; margin-top: 10px; }

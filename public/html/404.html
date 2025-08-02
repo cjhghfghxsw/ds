@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>404 Not Found | DeepMC</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #0f0f0f;
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      flex-direction: column;
+      text-align: center;
+    }
+    h1 {
+      font-size: 8rem;
+      background: linear-gradient(45deg, #00ffff, #0077ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: glow 2s infinite alternate;
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #00ffff; }
+      to { text-shadow: 0 0 20px #0077ff; }
+    }
+    p {
+      font-size: 1.5rem;
+      margin: 20px 0;
+      color: #aaa;
+    }
+    a {
+      text-decoration: none;
+      padding: 12px 24px;
+      background: #0077ff;
+      color: white;
+      border-radius: 6px;
+      transition: 0.3s ease;
+    }
+    a:hover {
+      background: #005fcc;
+    }
+  </style>
+</head>
+<body>
+  <h1>404</h1>
+  <p>Oops! The page you're looking for doesn't exist on <strong>DeepMC</strong>.</p>
+  <a href="/">Go back home</a>
+</body>
+</html>

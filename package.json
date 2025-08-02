@@ -1,0 +1,17 @@
+{
+  "name": "deepmc-login",
+  "version": "1.0.0",
+  "description": "Login page for DeepMC Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "express-mysql-session": "^3.0.3",
+    "express-session": "^1.18.0",
+    "mysql2": "^3.10.0"
+  }
+}
