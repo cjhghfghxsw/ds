@@ -1,0 +1,294 @@
+/* Mod Apply Page Body */
+.page-body {
+    background-color: #1a1a1a;
+    color: #eee;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Page Header */
+.page-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.page-header h1 {
+    margin: 0 0 10px 0;
+    color: #fff;
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
+.page-header p {
+    margin: 0;
+    color: #888;
+    font-size: 1.1em;
+}
+
+/* Application Container */
+.application-container {
+    background-color: #222;
+    border-radius: 8px;
+    border: 1px solid #333;
+    overflow: hidden;
+}
+
+/* Status Notice Boxes */
+.notice-box {
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+
+.notice-box.info {
+    background-color: #1c2a38;
+    color: #82c3ff;
+    border-color: #2a4157;
+}
+
+.notice-box.pending {
+    background-color: #38341c;
+    color: #ffd182;
+    border-color: #574f2a;
+}
+
+.notice-box.success {
+    background-color: #2e7d32;
+    color: #fff;
+    border-color: #3a9d3f;
+}
+
+.notice-box.error {
+    background-color: #c62828;
+    color: #fff;
+    border-color: #d32f2f;
+}
+
+/* Requirements Section */
+.requirements-section {
+    background-color: #2a2a2a;
+    padding: 25px;
+    border-bottom: 1px solid #333;
+}
+
+.requirements-section h2 {
+    margin: 0 0 20px 0;
+    color: #55FFFF;
+    font-size: 1.4em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.requirements-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.requirements-list li {
+    padding: 10px 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    color: #ccc;
+    line-height: 1.5;
+}
+
+.requirements-list li .icon {
+    color: #55FFFF;
+    font-size: 1.1em;
+    margin-top: 2px;
+}
+
+/* Application Form */
+.application-form {
+    padding: 30px;
+}
+
+.form-section {
+    margin-bottom: 30px;
+}
+
+.form-section h3 {
+    margin: 0 0 15px 0;
+    color: #fff;
+    font-size: 1.2em;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #aaa;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    background-color: #2d2d2d;
+    border: 1px solid #444;
+    color: #eee;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+}
+
+.form-group textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #00AAAA;
+    box-shadow: 0 0 5px rgba(0, 170, 170, 0.3);
+}
+
+/* Character Counter */
+.char-counter {
+    text-align: right;
+    font-size: 0.85em;
+    color: #888;
+    margin-top: 5px;
+}
+
+.char-counter.warning {
+    color: #ffc107;
+}
+
+.char-counter.error {
+    color: #dc3545;
+}
+
+/* Submit Button */
+.submit-btn {
+    width: 100%;
+    background-color: #00AAAA;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: all 0.3s;
+    margin-top: 20px;
+}
+
+.submit-btn:hover {
+    background-color: #008888;
+    box-shadow: 0 0 10px rgba(0, 170, 170, 0.5);
+}
+
+.submit-btn:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+/* Previous Applications Section */
+.previous-applications {
+    background-color: #2a2a2a;
+    padding: 25px;
+    border-top: 1px solid #333;
+}
+
+.previous-applications h3 {
+    margin: 0 0 20px 0;
+    color: #55FFFF;
+    font-size: 1.3em;
+}
+
+.application-item {
+    background-color: #222;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.application-item:last-child {
+    margin-bottom: 0;
+}
+
+.application-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.application-date {
+    color: #888;
+    font-size: 0.9em;
+}
+
+.status-badge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.status-pending {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.status-approved {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.status-denied {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.application-response {
+    background-color: #1a1a1a;
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.application-response h5 {
+    margin: 0 0 8px 0;
+    color: #55FFFF;
+    font-size: 0.9em;
+}
+
+.application-response p {
+    margin: 0;
+    color: #ccc;
+    line-height: 1.4;
+}
+
+/* Loading State */
+.loading-text {
+    text-align: center;
+    font-size: 1.2em;
+    color: #888;
+    padding: 40px;
+}
